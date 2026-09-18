@@ -28,7 +28,7 @@ requirements: ## install development environment requirements
 	uv sync --group dev
 
 ci_requirements: ## sync to requirements needed for CI checks
-	uv sync --group quality
+	uv sync --group validation
 
 dev_requirements: ## sync to requirements for local development
 	uv sync --group dev
@@ -37,7 +37,7 @@ prod_requirements: ## sync virtualenv to requirements needed for production
 	uv sync
 
 validation_requirements: ## sync to requirements for testing & code quality checking
-	uv sync --group quality
+	uv sync --group validation
 
 doc_requirements: ## sync to requirements for documentation
 	uv sync --group doc

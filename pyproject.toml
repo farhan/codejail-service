@@ -51,11 +51,14 @@ test = [
     "ddt",
     "Django>=4.2,<5.0",
 ]
-quality = [
+validation = [
     {include-group = "test"},
     "isort",
     "pycodestyle",
     "pydocstyle",
+]
+quality = [
+    {include-group = "validation"},
     "twine",
 ]
 doc = [
