@@ -11,10 +11,9 @@ on:
 jobs:
   run_tests:
     name: ${{ matrix.toxenv }}
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [ubuntu-latest]
         python-version:
           - "3.12"
         toxenv:
