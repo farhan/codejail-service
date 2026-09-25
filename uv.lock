@@ -465,6 +465,19 @@ test = [
     { name = "pytest-django" },
     { name = "tox" },
 ]
+validation = [
+    { name = "code-annotations" },
+    { name = "coverage" },
+    { name = "ddt" },
+    { name = "django" },
+    { name = "edx-lint" },
+    { name = "isort" },
+    { name = "pycodestyle" },
+    { name = "pydocstyle" },
+    { name = "pytest-cov" },
+    { name = "pytest-django" },
+    { name = "tox" },
+]
 
 [package.metadata]
 requires-dist = [
@@ -531,6 +544,19 @@ test = [
     { name = "ddt" },
     { name = "django", specifier = ">=4.2,<5.0" },
     { name = "edx-lint" },
+    { name = "pytest-cov" },
+    { name = "pytest-django" },
+    { name = "tox" },
+]
+validation = [
+    { name = "code-annotations" },
+    { name = "coverage" },
+    { name = "ddt" },
+    { name = "django", specifier = ">=4.2,<5.0" },
+    { name = "edx-lint" },
+    { name = "isort" },
+    { name = "pycodestyle" },
+    { name = "pydocstyle" },
     { name = "pytest-cov" },
     { name = "pytest-django" },
     { name = "tox" },

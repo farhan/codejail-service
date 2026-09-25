@@ -7,7 +7,7 @@ name = "codejail-service"
 version = "0.0.0"
 description = "Run codejail (sandboxed Python execution) as a service."
 requires-python = ">=3.12"
-license = "AGPL-3.0"
+license = "AGPL-3.0-only"
 license-files = ["LICENSE*"]
 authors = [
     {name = "Open edX Project", email = "oscm@openedx.org"},
