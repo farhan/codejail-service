@@ -34,7 +34,7 @@ dev_requirements: ## sync to requirements for local development
 	uv sync --group dev
 
 prod_requirements: ## sync virtualenv to requirements needed for production
-	uv sync
+	uv sync --no-default-groups
 
 validation_requirements: ## sync to requirements for testing & code quality checking
 	uv sync --group validation
